@@ -14,7 +14,7 @@ if [ ! -f ./tg ]; then
     echo "Run $0 install"
     exit 1
  fi
-if [ ! 312875129:AAH6H0naU50DTIgonF5dACnWClg9lOJK-NQ ]; then
+if [ 312875129:AAH6H0naU50DTIgonF5dACnWClg9lOJK-NQ ]; then
   echo -e "\e[1;36mToken Not found\e[0m"
  exit 1
  fi
